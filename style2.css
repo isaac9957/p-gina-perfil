@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color:rgb(117, 117, 117);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color:rgb(32, 49, 93);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+}
+
+.caja {
+  width: 450px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 2px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.caja h1 {
+  text-align: center;
+  color: rgb(27, 51, 95);
+}
+
+.caja label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.caja input,
+.caja textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer{
+    background-color:rgb(25, 28, 60);
+}
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
